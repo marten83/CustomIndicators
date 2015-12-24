@@ -25,3 +25,6 @@ albumSlider.addOnPageChangeListener(new CustomIndicators(this, null, {TOTAL SIZE
 ## Thanks
 
 - [daimajia](https://github.com/daimajia/AndroidImageSlider)
+
+##contact
+[My email](mailto:marten.ohlsson@gmail.com)
