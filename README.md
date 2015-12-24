@@ -1,10 +1,23 @@
 # CustomIndicators
-
 ![](https://raw.githubusercontent.com/marten83/CustomIndicators/master/preview.jpg)
 
-JSONParser Android API 23+ without org.apache.http.legacy
+Custom indicator for daimajias Android ImageSlider. Shows numbers as the image shows instead of dotts.
+
+## Usage
+Add CustomIndicators.java to your project
+
+Place this in your XML where you want the indicators to show
+
+```xml
+<LinearLayout
+	android:id="@+id/custom_indicator"
+	android:layout_width="wrap_content"
+	android:layout_height="wrap_content"/>
+```
+
+Add this tho your album slider
 
 ```
-JSONParser jParser = new JSONParser();
-JSONObject json = jParser.getJSONFromUrl(URL);
+albumSlider.setIndicatorVisibility(PagerIndicator.IndicatorVisibility.Invisible);
+albumSlider.addOnPageChangeListener(new CustomIndicators(view.getContext(), null, {TOTAL SIZE}));
 ```
