@@ -1,7 +1,7 @@
 # CustomIndicators
 ![](https://raw.githubusercontent.com/marten83/CustomIndicators/master/preview.jpg)
 
-Custom indicators for daimajias AndroidImageSlider. Shows numbers as the image shows instead of dotts.
+Custom indicators for daimajias AndroidImageSlider. Shows numbers instead of dotts.
 
 ## Usage
 Add CustomIndicators.java to your project
