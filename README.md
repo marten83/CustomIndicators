@@ -21,3 +21,7 @@ Add this tho your album slider
 albumSlider.setIndicatorVisibility(PagerIndicator.IndicatorVisibility.Invisible); //Hide deafault indicators
 albumSlider.addOnPageChangeListener(new CustomIndicators(this, null, {TOTAL SIZE}));
 ```
+
+## Thanks
+
+- [daimajia](https://github.com/daimajia/AndroidImageSlider)
